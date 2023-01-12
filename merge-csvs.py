@@ -3,7 +3,7 @@ import pandas as pd
 # read in the two CSV files
 df1 = pd.read_csv("bizdev-1-a-page1thru96.csv")
 df2 = pd.read_csv("bizdev-global-1-a-csv.csv")
-df2 = pd.read_csv("bizdev-global-1-b-csv.csv")
+df3 = pd.read_csv("bizdev-global-1-b-csv.csv")
 
 
 merged_df = pd.concat([df1, df2, df3], ignore_index=True)
